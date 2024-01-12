@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+TC&family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <audio autoplay loop>
+      <source src="/images/coniferous-forest-142569.mp3" type="audio/mpeg" />
+      <source src="/images/forest-lullaby-110624.mp3" type="audio/mpeg" />
+    </audio>
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="images/Untitled 2.mp4" type="video/mp4" />
+    </video>
+    <h1 class="title">The Weathers of the World</h1>
+    <div class="body-container">
+      <div class="weather-data">
+        <div class="temperature main-data" id="temperature"></div>
+        <div class="main-data" id="precip"></div>
+        <div class="cloud main-data" id="cloud"></div>
+        <div class="weather-form"></div>
+      </div>
+      <div class="data2-container">
+        <div id="weather-data">
+          <div class="main-weather-info main-data-2" id="main-weather-info">
+            <div class="title-location main-data-2" id="title-location"></div>
+            <div class="country-title main-data-2" id="country-title"></div>
+            <div class="date main-data main-data-2" id="date"></div>
+
+            <form class="form">
+              <i class="fa-solid fa-location-dot logo"></i>
+              <input
+                id="location-input"
+                class="location-input"
+                type="text"
+                placeholder="search a location"
+              />
+              <button type="submit">Find</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-fact">
+        <div class="feels-like main-data" id="feels-like"></div>
+        <div class="humidity main-data" id="humidity"></div>
+
+        <div class="wind-speed main-data" id="wind-speed"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/142dde2f96.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="weatherapp.js"></script>
+  </body>
+</html>

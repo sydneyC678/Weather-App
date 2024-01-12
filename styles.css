@@ -1,0 +1,88 @@
+:root {
+  --main-text-color: white;
+  --app-title-text-size: 60px;
+  --city-text-size: 55px;
+  --country-text-size: 30px;
+  ---data-tile-text-size: 25px;
+  --data-text-size: 18px;
+  --logo-size-1: 50px;
+  --bold: 700;
+  --logo-size-2: 30px;
+  --background-color: rgba(162, 161, 161, 0.128);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--main-text-color);
+  overflow: hidden;
+  font-family: "Abril Fatface", serif;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Salsa", cursive;
+}
+.body-container {
+  display: flex;
+  gap: 200px;
+  flex-direction: row;
+  margin: 30px 0 30px 40px; /* Adjust the values as needed */
+  height: 100vh;
+}
+
+.back-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.weather-data {
+  font-size: large;
+}
+.title {
+  font-size: var(--app-title-text-size);
+  text-transform: uppercase;
+  transition: 0.4s;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--main-text-color); /* Set the text color */
+}
+
+.title:hover {
+  -webkit-text-stroke: 1px var(--main-text-color);
+  color: transparent;
+}
+.weather-data,
+.more-fact {
+  margin-top: 50px;
+}
+
+.data2-container {
+  margin-top: 150px;
+}
+
+/* Fonts and Sizes*/
+.title-location {
+  font-size: var(--city-text-size);
+}
+.country-title {
+  font-size: var(--country-text-size);
+}
+.main-data {
+  font-size: var(---data-tile-text-size);
+  margin-bottom: 20px;
+}
+.main-data-2 {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px 80px;
+}
+.form .location-input {
+  height: 25px;
+  font-size: var(--data-text-size);
+  background-color: white;
+  border: none;
+
+  border-bottom: 2px solid black;
+}
