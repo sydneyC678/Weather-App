@@ -19,3 +19,5 @@ Weather app developed using HTML, CSS, and JavaScript. The application utilizes 
 
 It provides users with a personalized and enjoyable atmospheric experience. The themed visuals and music create a unique ambiance for each weather condition.
 
+
+
