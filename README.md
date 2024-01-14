@@ -21,3 +21,7 @@ It provides users with a personalized and enjoyable atmospheric experience. The 
 
 
 
+
+
+https://github.com/sydneyC678/Weather-App/assets/121634300/8f47ee0a-3341-4f79-a0d5-67f5f85c507d
+
